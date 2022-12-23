@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.blink {
+  animation: blinker3 1s infinite alternate;
+}
+@keyframes blinker3 {
+  to {
+    opacity: 0;
+  }
+}
+
+.d1{
+    display: flex;
+    font-size: 24px;
+    margin: 12px 0;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+.d2{
+    display: flex;
+    align-items: center;
+    margin: 40px 20px;
+    justify-content: space-between;
+}
+
+.main_div{
+    margin: 20px 80px;
+}
+.main_p{
+    margin: 20px 72px;
+    display: flex;
+    font-size: 24px;
+    flex-direction: column;
+}
+.main_{
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+.main{
+    /* margin: 20px 80px; */
+    font-size: 40px;
+    margin-top: 4px;
+    font-weight: bold;
+}
+.m{
+    display: flex;
+    
+}
